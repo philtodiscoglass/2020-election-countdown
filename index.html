@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>2020 US Presidential Election Countdown</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -12,13 +12,18 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <div>2020 US Presidential Election</div>
-      <div id="message"> </div>
-      <div id="timer">
-        <div id="days"></div>
-        <div id="hours"></div>
-        <div id="minutes"></div>
-        <div id="seconds"></div>
+      <div class="countdown-background">
+        <div class="countdown-content">
+          <h1 class="title">2020 US Presidential Election</h1>
+            <span class="divider"></span>
+            <div class="timer">
+              <div id="days"></div>
+              <div id="hours"></div>
+              <div id="minutes"></div>
+              <div id="seconds"></div>
+            </div>
+          <h2 class="message"></h2>
       </div>
-    </body>
+    </div>
+  </body>
 </html>
