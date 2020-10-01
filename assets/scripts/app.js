@@ -1,11 +1,13 @@
 'use strict'
 
-// use require with a reference to bundle the file and use it in this file
-// const example = require('./example')
+function createCountdown() {
 
-// use require without a reference to ensure a file is bundled
-// require('./example')
+  // set the date (Washington DC time)
+let electionDay = new Date('Nov 3, 2020 00:00:00')
+  // returns time in ms since UNIX epoch, then convert to seconds
+  electionDay = (Date.parse(electionDay) / 1000)
 
-$(() => {
-  // your JS code goes here
-})
+  // set current time, return time in ms since UNIX epoch, then convert to seconds
+  let currentTime = new Date()
+  currentTime = (Date.parse(currentTime) / 1000)
+}
