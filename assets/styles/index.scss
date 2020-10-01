@@ -3,62 +3,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Open+Sans&display=swap');
 
 body {
+  background: #222;
+  color: white;
   font-family: 'Courier Prime';
-  width: 800px;
+  font-weight: 100;
+  height: 1000px;
   margin: 0 auto;
   text-align: center;
-  color: white;
-  background: #222;
-  font-weight: 100;
-}
-
-h1 {
-  font-size: 100px;
-  display: block;
-  color: white;
-}
-
-div {
-  display: inline-block;
-  line-height: 1;
-  padding: 20px;
-  font-size: 50px;
-}
-
-span {
-  display: block;
-  font-size: 20px;
-  color: white;
-}
-
-#days {
-  font-size: 100px;
-  // color: #db4844;
-}
-#hours {
-  font-size: 100px;
-  // color: white;
-}
-#minutes {
-  font-size: 100px;
-  // color: blue;
-}
-#seconds {
-  font-size: 50px;
-  // color: #db4844;
-}
-
-.divider {
-  flex-grow: 1;
-  border-bottom: 7px solid #87CEFA;
-  border-radius: 15px;
-  margin: 5px
+  width: 1000px;
 }
 
 .countdown-background {
   background-color: #db4844;
-  margin: auto;
   border: 5px solid #87CEFA;
   border-radius: 15px;
-  margin-top: 50px
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+h1 {
+  color: white;
+  display: block;
+  font-size: 100px;
+}
+
+.divider {
+  border-bottom: 7px solid #87CEFA;
+  border-radius: 15px;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+div {
+  display: inline-block;
+  font-size: 50px;
+  line-height: 1;
+  padding: 20px;
+}
+
+span {
+  color: white;
+  display: block;
+  font-size: 20px;
+}
+
+#days {
+  font-size: 100px;
+}
+
+#hours {
+  font-size: 100px;
+}
+
+#minutes {
+  font-size: 100px;
+}
+
+#seconds {
+  font-size: 50px;
+}
+
+a {
+  color: white;
+  font-size: 40px;
+}
+
+a:hover {
+  color: #87CEFA;
+}
+
+p {
+  padding: 100px;
+  opacity: 60%;
 }
