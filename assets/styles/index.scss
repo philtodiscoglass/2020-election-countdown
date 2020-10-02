@@ -17,62 +17,63 @@ body {
   background-color: #db4844;
   border: 5px solid #87CEFA;
   border-radius: 15px;
+  display: inline-block;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 50px;
-  display: inline-block;
+  width: 75vw;
 }
 
 h1 {
   color: white;
   display: block;
-  font-size: 100px;
+  font-size: 7vw;
+  padding-top: 20px;
 }
 
 .divider {
   border-bottom: 7px solid #87CEFA;
   border-radius: 15px;
-  flex-grow: 1;
-  margin: 5px;
+  margin: 30px;
+  opacity: 75%;
 }
 
 div {
   display: inline-block;
   font-size: 50px;
   line-height: 1;
-  padding: 20px;
+  padding: 10px;
 }
 
 span {
   color: white;
   display: block;
-  font-size: 20px;
+  font-size: 1.60vw;
 }
 
 #days {
-  font-size: 100px;
+  font-size: 6.5vw;
 }
 
 #hours {
-  font-size: 100px;
+  font-size: 6.5vw;
 }
 
 #minutes {
-  font-size: 100px;
+  font-size: 6.5vw;
 }
 
 #seconds {
-  font-size: 50px;
+  font-size: 3.125vw;
 }
 
 a {
   color: white;
-  font-size: 40px;
+  display: inline-block;
+  font-size: 3.25vw;
   margin: 0 auto;
-  display: inline-flex;
-  text-align: center;
 }
 
 a:hover {
@@ -80,7 +81,10 @@ a:hover {
 }
 
 p {
-  font-size: 20px;
+  bottom: 0;
+  font-size: 1.4vw;
   opacity: 60%;
-  padding: 100px;
+  padding-top: 15px;
+  position: absolute;
+  width: 100%;
 }
