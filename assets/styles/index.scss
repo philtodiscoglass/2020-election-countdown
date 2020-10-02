@@ -8,9 +8,7 @@ body {
   color: white;
   font-family: 'Courier Prime';
   font-weight: 100;
-  margin: 0 auto;
   text-align: center;
-
 }
 
 .countdown-content {
@@ -19,10 +17,10 @@ body {
   border-radius: 15px;
   display: inline-block;
   margin: 0 auto;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
+  // margin-bottom: 20px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vw;
   width: 75vw;
 }
 
@@ -30,14 +28,15 @@ h1 {
   color: white;
   display: block;
   font-size: 7vw;
-  padding-top: 20px;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .divider {
-  border-bottom: 7px solid #87CEFA;
+  border-bottom: .40vw solid #87CEFA;
   border-radius: 15px;
-  margin: 30px;
-  opacity: 75%;
+  margin: 20px;
 }
 
 div {
@@ -74,6 +73,8 @@ a {
   display: inline-block;
   font-size: 3.25vw;
   margin: 0 auto;
+  font-style: italic;
+  opacity: 80%;
 }
 
 a:hover {
