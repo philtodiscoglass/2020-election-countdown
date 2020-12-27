@@ -4,8 +4,8 @@ This application allows you view the countdown from the current time until US Pr
 
 **Here are the links to my deployed application and my reposository:**
 
-* [Repo]
-* [Application]
+* [https://github.com/philtodiscoglass/us-election-countdown]
+* [https://philtodiscoglass.github.io/us-election-countdown/]
 
 **User Stories:**
 
