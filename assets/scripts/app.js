@@ -2,7 +2,7 @@
 
 function createCountdown () {
   // set the date (Washington DC time)
-  let electionDay = new Date('Nov 3, 2020 00:00:00')
+  let electionDay = new Date('Nov 3, 2024 00:00:00')
   // returns time in ms since UNIX epoch, then convert to seconds
   electionDay = (Date.parse(electionDay) / 1000)
 
